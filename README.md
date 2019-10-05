@@ -26,6 +26,7 @@ $ python main.py --input input/highway.mp4 --output output/highway.avi --yolo yo
 5. To run in google colab:
 ```
 !python3 main.py --input input/highway.mp4 --output output/highway.avi --yolo yolo-coco 
+```
 
 ## Citation
 
