@@ -206,8 +206,6 @@ while True:
 	cv2.putText(frame, str(counter), (100,200), cv2.FONT_HERSHEY_DUPLEX, 5.0, (0, 255, 255), 10)
 	# counter += 1
 
-	# saves image file
-	cv2.imwrite("output/frame-{}.png".format(frameIndex), frame)
 
 	# check if the video writer is None
 	if writer is None:
