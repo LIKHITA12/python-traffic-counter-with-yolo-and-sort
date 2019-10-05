@@ -23,6 +23,9 @@ The code on this prototype uses the code structure developed by Adrian Rosebrock
 ```
 $ python main.py --input input/highway.mp4 --output output/highway.avi --yolo yolo-coco
 ```
+5. To run in google colab:
+```
+!python3 main.py --input input/highway.mp4 --output output/highway.avi --yolo yolo-coco 
 
 ## Citation
 
